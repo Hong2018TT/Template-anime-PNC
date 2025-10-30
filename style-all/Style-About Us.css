@@ -1,0 +1,160 @@
+/* Styling for the section containing images */
+.Information-web img {
+  height: 350px;
+  max-width: 100%; /* Ensures image is responsive */
+  display: block;
+  margin: 20px auto; /* Centers the image */
+  border: 8px solid rgb(125, 125, 125);
+  border-style: ridge;
+  outline: 4px solid rgb(46, 248, 255);
+  outline-style: outset;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-color: aliceblue;
+}
+
+/* Image Hover Effect */
+.Information-web img:hover {
+  transform: scale(1.05); /* Adds a slight zoom effect */
+  box-shadow: 0px 10px 25px rgba(0, 255, 255, 0.5);
+}
+
+/* Title Styling */
+.Information-web h2 {
+  padding-top: 20px;
+  color: rgb(107, 107, 107);
+  font-size: 20pt;
+  padding-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect on Title */
+.Information-web h2:hover {
+  color: cornflowerblue;
+  border-left: 5px solid royalblue;
+  border-right: 5px solid royalblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+/* Section Layout */
+.Information-web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Introduction Section */
+.Introduction-My {
+  padding-top: 30px;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #506bff;
+  text-align: center;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Inside Title */
+.title-information p {
+  font-size: 10pt;
+  color: white;
+  word-break: break-word;
+  line-height: 1.6; /* Improves readability */
+  text-align: justify;
+}
+
+/* Title Block */
+.title-information {
+  margin: 20px 5%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+/* Play Button Styling */
+.play-bc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Play Button Icon */
+.play-bc i {
+  font-size: 40pt;
+  color: rgb(31, 31, 31);
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover Effect on Play Button */
+.play-bc i:hover {
+  color: #506bff;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .Introduction-My {
+      font-size: 20pt;
+  }
+
+  .title-information p {
+      font-size: 12pt;
+  }
+
+  .Information-web img {
+      height: 310px;
+  }
+
+  .play-bc i {
+      font-size: 35pt;
+  }
+}
+
+@media (max-width: 768px) {
+  .Introduction-My {
+      font-size: 18pt;
+      padding-left: 0;
+  }
+
+  .title-information {
+      margin: 15px;
+      padding: 15px;
+  }
+
+  .title-information p {
+      font-size: 11pt;
+      text-align: center;
+  }
+
+  .Information-web img {
+      height: 280px;
+      outline-width: 5px;
+  }
+
+  .play-bc i {
+      font-size: 30pt;
+  }
+}
+
+@media (max-width: 480px) {
+  .Introduction-My {
+      font-size: 16pt;
+  }
+
+  .Information-web img {
+      height: 220px;
+  }
+
+  .play-bc {
+      flex-direction: column;
+  }
+
+  .play-bc i {
+      font-size: 28pt;
+  }
+}

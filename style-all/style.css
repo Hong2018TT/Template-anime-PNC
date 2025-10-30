@@ -1,0 +1,576 @@
+/*Body in there*/
+body{
+  background-color: rgb(0, 0, 0);
+  background-attachment: fixed;
+  font-family: 'Rowdies', cursive;
+}
+:root{
+  --background-aqua : rgb(0, 251, 255);
+  --text-light : #fff;
+  --text-dark : #000;
+  --background-dark : #333;
+  --background-light : #f4f4f4;
+  --border-color : #2e344e;
+  --border-color-light : #f4f4f4;
+  --border-color-dark : #333;
+  --primary-color : #007bff;
+}
+/* For style Menus */
+.menu-skicky{
+  position: sticky;
+  top:0px;
+  z-index: 1000;
+  background-color: #000000;
+}
+.menu-skicky .navbar-nav .nav-item .nav-link{
+  color:white;
+}
+.menu-skicky .navbar-brand{
+  color:white !important;
+}
+/**/
+.container-menu{
+  height: 90px;
+   box-shadow: 0px 10px 20px black;
+  margin: auto;
+}
+.contianer-meu-body{
+   margin: 0px 18.5%; }
+.Home-page i{
+  font-size: 30pt; color: rgb(201, 201, 201);  
+  padding:15px 10px; }
+  .Home-page i:active{
+    color: #ffffff;
+  }
+  .button-menu .btn a{
+    color: white;  
+    text-decoration: none;  
+    font-size: 18pt;
+  }
+  .button-menu .btn:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgb(255, 255, 255);
+    background-color: rgb(155, 145, 145,0.1);
+    text-decoration: none;
+  }
+  
+  .button-menu .btn:hover a{
+    color: rgb(0, 251, 255);
+    text-decoration: overline; 
+    outline: none; }
+/**/
+.btn-group .nav-link:hover{
+color: rgb(255, 255, 255);
+box-shadow: 0px 6px 10px rgb(255, 255, 255);
+background-color: rgb(155, 145, 145,0.1);
+text-decoration: none;
+}
+.btn-group .nav-link:hover{
+  color: rgb(0, 251, 255); 
+  outline: none; text-decoration: overline;
+}
+.btn-group .nav-link{
+  color: white;  
+  font-size: 18pt;
+  border: none;outline: none;
+}
+.btn-group{
+  padding:20px 0px 0px 0px;
+}
+.dropdown-menu li:Hover a{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: aqua ;
+}
+.dropdown-menu li a{  
+  font-size: 10pt;color: white;   
+}
+.dropdown-menu{
+  border-radius:0px 0px 10px 10px;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*form input data*/
+.form-input .btn i{
+   color: white;  font-size: 20pt;}
+.form-input .btn{
+   position:absolute; right: 16px; top:14px;
+  background-color: none;
+  border: none;
+  outline: none;}
+/*Input Seach buttom*/
+/*under body*/
+.form-input input{
+  width:520px;
+  height:52px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15pt; padding: 0px 50px 0px 20px;
+  background-color: rgb(118, 118, 118,0.3);color: white;
+  transition: 0.40s;
+  box-shadow: 2px 5px 5px black;
+}
+.form-input{
+  padding: 5px 0px 0px 0px; position: relative; 
+}
+.form-input input:hover{
+  background-color: rgba(255, 255, 255, 0.2); 
+  color: rgb(0, 255, 174); outline: none;
+}
+/*nav-item and nav-link hover text in here
+.img{display: flex;justify-content: center;align-items: center;display: inline-block;}
+*/
+/*Fro container of backfgound first top*/
+.H-container p{
+  font-size: 18pt; 
+  border-left: 5px solid rgb(118, 118, 118); 
+  background-color: rgba(55, 53, 53 ,0.1);
+}
+.Allcontianer{
+  height: 4520px; 
+  background-repeat: repeat; }
+  
+.On-image{
+  width:100%; height:180px;
+  position: relative;
+}
+.On-image a img{
+  height:180px;
+}
+
+@media (max-width: 768px){
+  .On-image a img{
+    height:180px;
+  }
+}
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+  .On-image a img {
+    weight: 180px;
+    width: auto; /* Ensures natural width scaling */
+    max-width: 100%; /* Prevents overflow */
+    object-fit: cover; /* Ensures the image covers the specified height */
+  }
+}
+
+/* Container html body */
+.container-body {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(200px, 2.4fr) minmax(160px, 0.6fr);
+  gap: 1rem; /* Adds space between columns */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .container-body {
+    grid-template-columns: 1fr; /* Stacks elements vertically */
+  }
+}
+
+
+/*{ background-image: url("img_tree.png");background-repeat: no-repeat;background-position: right top; }*/
+.top-0{
+  display: flex;
+}
+.top-0{
+  background-color: rgb(229, 235, 208);
+  border-bottom: 3px solid rgb(185, 183, 183);
+  font-size: 10pt;  color: white;
+  background-color: #000000;
+  padding-block: 3px;
+}
+.cr{
+  background: linear-gradient(90deg, rgb(0, 0, 0) 5%, rgb(66, 13, 224) 20% , rgb(0, 0, 0) 30%,rgb(23, 255, 205) 50%,rgb(0, 0, 0) 60%,rgb(1, 145, 255) 78%, rgb(0, 0, 0) 83%,rgb(130, 0, 210) 92%, rgb(0, 0, 0) 99%);
+  background-size: 300% 300%;
+  animation: toggle 15s infinite;
+}
+@keyframes toggle{
+  from{
+    background-position: 0% 100%;
+  }
+  to{
+    background-position: 150%;
+  }
+}
+.icon-atived i{
+  font-size: 1rem;  padding-left: 5px;
+}
+/*body left in table img*/
+.Headimg {
+  background: linear-gradient(to right, rgb(0, 251, 255) 0%, rgba(98, 55, 255, 0.635), rgba(81, 255, 174, 0.688), rgb(0, 251, 255));
+  height: 30px; /* Increased for better visibility */
+  width: 100%;
+  font-size: 1rem;
+  color: var(--text-light);
+  text-align: left;
+  padding: 8px 20px; /* Adjusted for better spacing */
+  border-radius: 5px 5px 0px 0px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Softer shadow for better readability */
+  display: flex;
+  align-items: center; /* Centers text vertically */
+}
+
+/* Responsive adjustment */
+@media (max-width: 600px) {
+  .Headimg {
+    font-size: 0.9rem; /* Slightly smaller text */
+    height: 35px;
+    padding: 5px 15px; /* Adjusted padding for smaller screens */
+  }
+}
+
+/*In this have gird in Headimg*/
+
+.container-showitem-all{
+  padding: 20px;
+  width:100%; 
+  border-radius: 0px 0px 5px 5px;
+  position: relative;
+  border: 8px rgb(0, 251, 255);
+  box-shadow:0px 0px 20px rgba(0, 255, 251) inset;
+  border-style:double;
+}
+
+/*In border-imge make alot of color*/
+/*border-image: linear-gradient(220deg, rgb(112, 34, 255),rgb(255, 95, 137),rgb(228, 255, 56),rgb(42, 248, 255));
+  border-width: 5px;     border-style: solid;   border-image-slice:10%;*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+  gap: 20px; /* Adjusted for a more balanced look */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* Adjust to 3 columns for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* Adjust to 2 columns for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* Single column for mobile screens */
+  }
+}
+  
+.gird-img img {
+  width: 100%;
+  max-width: 100%;
+  height: 210px; /* Ensures consistency, but see alternative below */
+  object-fit: cover; /* Prevents image distortion */
+  cursor: pointer;
+  display: block; /* Avoids extra space below images */
+  transition: 0.2s ease-in-out;
+}
+
+/* Alternative: More Responsive Height */
+@media (max-width: 768px) {
+  .gird-img img {
+    height: 180px; /* Slightly smaller for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .gird-img img {
+    height: auto; /* Allows flexibility for smaller screens */
+  }
+}
+
+.grid-item:hover .gird-img img{
+  transition: 0.2s ease-in-out; 
+  transform: scale(1.1,1.1);
+}
+
+.grid-item:hover .gird-text a{
+  color: #32ff92; /* Green effect */
+}
+/*ការដាក់ដើម្ប៉លាក់នៅខាងក្រៅនៃសុមខាងទាំងសងខាង or closer border++ Overflow:Hidden (In this Srcoll visible hidden and..................)*/
+
+.gird-img{
+  overflow:hidden; position: relative;}
+/*ការយក​​ text on picture*/
+.title-year{
+  background-color: #000000;
+  position: absolute;
+  top:0px; left:0px; z-index: 1;
+  color: rgb(0, 255, 208);
+  border-radius: 0px 0px 5px 0px;
+  padding: 4px;
+  font-weight: bold; font-size: 8pt;
+}
+.title-point-top{
+  background: rgb(255,21,0);
+  background: linear-gradient(103deg, rgba(255, 21, 0, 0.761) 0%, rgba(251, 255, 0, 0.774) 100%);
+  position:absolute;
+  right: 0px; bottom:0px; z-index:3;
+  color:var(--text-light);
+  border-radius: 5px 0px 0px 0px;
+  padding: 0px 5px 1px 5px;
+  font-weight: bold; font-size: 8.5pt;
+  white-space: nowrap; /* Prevents text from wrapping */
+  text-shadow: 1px 1px 2px var(--text-dark);
+}
+.grid-item{
+  position: relative; z-index: 1; }
+
+.grid-item .gird-text{
+  text-align: center;
+  padding: 10px 7px 0px 7px;
+  width: 100%;height: 70px;
+  font-size: 8.5pt;
+  cursor: pointer;
+  background-color: rgba(15, 15, 15, 0.5);
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+}
+.gird-text a{
+  color: #ddd;  text-decoration: none; }
+/*Img:hover transition and straform.....Scale=ការពង្រីក  Rotate=ចលនាបង្វិល
+.grid-item img:hover{
+  transition: 0.50s ease-out;
+  transform: scale(1.1,1.1) rotate(0deg);
+  cursor: pointer;                             */
+.under-left{
+  padding-top: 20px;
+  position: relative; 
+}
+.under-left .under-body-left{
+  font-size: 11pt;  color: aliceblue; 
+}
+.under-body-left i{
+  padding-left: 45px;  color: #ffffff;  
+  cursor: pointer;}
+.under-body-left i:hover{
+  transition: 1s;
+  transition-delay: 0.50s;
+  transform: scale(1.3,1.3) rotate(90deg);
+  color: orange;
+}
+.under-left-1{
+  margin-top: 2.5rem; }
+/*In this for style button all number left*/
+.pagination ul li{
+  list-style: none;
+  background-color: rgb(85, 85, 85);
+  text-decoration:none;
+  font-size: 9pt;
+  padding: 6px;
+  padding-inline: 12px;
+  font-weight: bold;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid black;
+  border-bottom: 1px solid rgb(255, 255, 255,0.3);
+  border-top: 1px solid rgb(255, 255, 255,0.3);
+}
+.pagination ul li:hover{
+  background-color: #181818;
+  color: #ffffff; }
+.pagination ul li a{
+  text-decoration: none;
+  color: white; }
+.pagination ul{
+  display: inline-flex;
+  align-items: center;
+  padding-top: 5px;
+}
+.pagination{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*In this for click location and add like communocation and share for mind in this group*/
+.location-p1 {
+  color: #fafafa;
+  position: relative; }
+  
+.contianre-location{
+  margin-top: 2.5rem; }
+
+.location-Header-left {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* More readable and scalable */
+  gap: 20px; /* Adds space between items */
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+}
+
+/* Medium screens (tablets) */
+@media screen and (max-width: 1024px) {
+  .location-Header-left {
+    grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns */
+    height: auto; /* Allow height to adjust dynamically */
+    gap: 15px;
+  }
+}
+
+/* Small screens (mobile devices) */
+@media screen and (max-width: 768px) {
+  .location-Header-left {
+    grid-template-columns: repeat(2, 1fr); /* Stack items in a single column */
+    height: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
+/* Use for Collapsed Menu overlay content */
+@media screen and  (max-width:1000px){
+  /* Ensure collapsed menu overlays content */
+  .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #000; /* Match navbar background */
+      z-index: 1051; /* Ensure it's above everything else */
+      padding-bottom: 1rem;
+  }
+  .navbar-toggler {
+    border: none !important; /* Removes the border */
+    outline: none !important; /* Removes the focus outline */
+    box-shadow: none !important; /* Removes any Bootstrap box-shadow */
+    background-color: transparent; /* Ensures it blends with navbar */
+}
+
+}
+
+@media screen and (max-width: 480px) {
+  .location-Header-left {
+    grid-template-columns: 1fr;
+  }
+}
+
+.Telegram a img{
+  width:100%;
+  height:100px;
+}
+.Youtube a img{
+  width:100%;
+  height:100px;
+}
+.location-body-left{
+  border: 6px solid rgb(0, 251, 255);
+  width:100%; 
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255, 0.7);
+  color: #ddd;
+  box-shadow:10px 7px 7px 2px rgba(0, 0, 0, 0.7); 
+  box-shadow:0px 0px 15px rgba(0, 255, 251) inset;
+}
+.location-body-right-middle{
+  border: 6px solid rgb(0, 251, 255);
+  width:100%;  
+  height:210px;
+  border-radius: 5px;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: #ddd;
+  box-shadow:10px 7px 7px 2px rgba(0, 0, 0, 0.7);
+  justify-content: center; 
+  display: flex;
+  text-align: center;
+}
+.location-body-right{
+  border: 6px solid rgb(0, 251, 255);
+  width:100%; 
+  height:210px;
+  border-radius: 5px;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: #ddd;
+  box-shadow:10px 7px 7px 2px rgba(0, 0, 0, 0.7);
+  display: flex; 
+  text-align: center; 
+  justify-content: center; 
+  box-shadow:0px 0px 15px rgba(0, 255, 251) inset;
+}
+/*icon left*/
+.location-p2 .location-body-right-middle{
+  color:rgb(255, 255, 255);
+  font-size: 2rem;
+  box-shadow:0px 0px 15px rgba(0, 255, 251) inset; 
+ }
+ .location-p3  .location-body-right{
+  color: #ffffff;font-size: 2rem;  }
+/*In this hover icon communication*/
+.youtube i:hover{
+  color: red;
+  background-color: white;
+  inset: 20px 20px;
+  border-radius:20%;
+}
+
+.Telegram i:hover{
+  color: rgb(42, 171, 238);
+  background-color: white;
+  border-radius: 50%; 
+}
+
+.cotainer-last{
+  color: #ddd;
+  background: rgb(28, 29, 29);
+  box-shadow: -8px 0px 10px white;
+}
+.text-header-1{
+  font-size: 1rem;
+ }
+.lest-text-gird{
+  color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15pt;
+  padding-block: 2.5rem;
+  flex-wrap:wrap; 
+}
+.icon-header{
+  text-align: center;  
+  font-size: 20pt; 
+  cursor: pointer;}
+.linkendin i{
+  padding-left: 20px;}
+
+  /* Style for Iframe Css */
+.container-iframe iframe{
+  border: 6px solid rgb(0, 255, 251);
+  border-radius: 5px;
+  box-shadow:10px 7px 7px 2px rgba(0, 0, 0, 0.7);
+  box-shadow:0px 0px 30px rgba(0, 255, 251) inset;
+  position: relative;
+}
+.container-iframe{
+  position: relative;
+}
+.content-img{
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  z-index: 2;
+  left:5px;
+  top:5px;padding: 2px;
+  font-size:12pt;
+  color: aliceblue;
+  border-radius: 0 0 5px 0;
+}
+
+/*----------------------------- For button back to up-----------------------------*/
+#button_up{
+  background-color:var(--background-aqua);
+  width:50px;height:50px;
+  line-height: 60px;
+  text-align:center;
+  border-radius: 4px;
+  position:fixed;
+  bottom:30px; border:none;
+  right:30px; border-radius: 50%;
+  opacity:0.5s,visibility .5s;
+  opacity: 0;
+  transition: all .3s;z-index:100;
+}
+#button_up i{font-size: 32px;color:#Fff;}
+#button_up:hover{cursor: pointer;background-color: var(--primary-color)}
+#button_up.show{opacity: 1;}

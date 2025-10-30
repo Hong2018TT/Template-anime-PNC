@@ -1,0 +1,103 @@
+.right-contact input{
+  width:50%;
+  outline: none;
+  border-radius: 0px 0px 0px 7px;
+  font-size: 14px;
+  padding-left: 8px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fafafa;
+  border: none;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  transform: skewX(10deg);
+}
+
+@media (max-width: 768px) {
+  .right-contact input{
+    width:100%;
+  }
+}
+.right-contact label{
+  flex-direction: column; font-size: 10pt;
+  display:flex;
+  font-weight: bold;
+  padding-bottom: 6px;
+  color:aqua;
+}
+.rightt-contact ,.right-contact-two ,.right-contact-three ,.right-contact-four{
+  padding-top: 15px;
+}
+/*Resize:none  // for textrea // delect ការពង្រីកមាឌ // vertical បញ្ឈរ // Horizontal ផ្តេក*/
+.right-contact-four textarea{
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  padding-left: 15px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fafafa;
+  border: none;
+  border:3px solid white;
+  resize:vertical;
+}
+.right-contact-four textarea:focus{
+  background: transparent;
+  color:#fff;
+  border-color:aqua;
+}
+.button-contact{
+    display: flex; 
+    justify-content: right;
+    position: relative;
+    margin-block: 1rem;
+}
+.button-contact button{
+  font-size: 8pt;
+  background-color: rgba(0, 0, 0);
+  border: none;
+  color: #000000;
+  outline: none;
+  opacity: 70%;
+  padding: 20px;
+}
+.button-contact a{
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+
+.btn1:hover{
+  outline: 3px solid white;
+  border-radius: 5px;
+}
+.btn1{
+  position: relative;
+}
+.btn1:after{
+  content: '';
+  position:absolute;
+  border-top: 3px solid white; 
+  inset: 4px 4px;transition: 0.40s;
+  border-bottom: 3px solid white; 
+}
+.btn1::before{
+  content: '';
+  position:absolute;
+  border-left: 3px solid white; 
+  inset: 0px 9px;transition: 0.40s ;
+  border-right: 3px solid white;
+}
+.btn1:hover::after{
+  inset: 6px 14px;
+  transition: 1s ;
+  border-color: #32ff92;
+  transform: rotatex(200deg);
+}
+.btn1:hover::before{
+  inset: 14px 6px;
+  transition: 1s ;
+  border-color: #0e16ff;
+  transform: rotatey(200deg);
+}

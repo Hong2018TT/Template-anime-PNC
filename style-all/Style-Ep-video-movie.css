@@ -1,0 +1,247 @@
+#static{
+  position: static; width: 100%; max-width: 3000px; margin: auto; }
+body{
+  background-color: #000000;
+  background-attachment: fixed;
+  margin: auto;
+  font-family: 'Rowdies', cursive;
+  }
+/**/
+.container-menu{
+  height: 105px;box-shadow: 0px 10px 15px black;
+}
+.contianer-meu-body{
+ margin: 0px 16%;}
+.Home-page i{
+  font-size: 37pt; color: white; padding:20px 10px;
+}
+.button-menu .btn a{
+  color: white;
+  text-decoration: none;
+  font-size: 19pt;
+}
+.button-menu .btn:hover{
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 6px 10px rgb(255, 255, 255);
+  background-color: rgb(155, 145, 145,0.1);
+  text-decoration: none;
+  height:56px;
+}
+.button-menu .btn:hover a{
+  color: rgb(0, 251, 255);
+  text-decoration: overline;
+  outline: none;
+}
+/**/
+.btn-group .nav-link:hover{
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 6px 10px rgb(255, 255, 255);
+  background-color: rgb(155, 145, 145,0.1);
+  text-decoration: none; height:56px;
+  }
+  .btn-group .nav-link:hover{
+    color: rgb(0, 251, 255); outline: none; text-decoration: overline;
+  }
+  .btn-group .nav-link{
+    color: white;  font-size: 19pt;border: none;outline: none;
+  }
+  .btn-group{
+    padding:27px 0px 0px 0px;
+  }
+  .dropdown-menu li:Hover a{
+    background-color: rgba(255, 255, 255, 0.5);color: aqua ;
+  }
+  .dropdown-menu li a{  
+    font-size: 18pt;color: white;
+  }
+  .dropdown-menu{
+    border-radius:0px 0px 10px 10px;
+    box-shadow: 4px 0px 15px white inset;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+.form-input button i{
+  color: white;
+  font-size: 20pt;
+}
+/*Input Seach buttom*/
+/*under body*/
+.form-input input{
+  width:520px;height:55px;outline: none;border-radius: 10px;font-size: 16pt;padding: 0px 50px 0px 20px;
+  background-color: rgb(118, 118, 118,0.3);color: white;transition: 0.40s;
+}
+.form-input .btn{ position:absolute; right: 16px; top:18px;}
+.form-input{
+  padding: 10px 0px 0px 0px; position: relative;
+}
+.form-input input:hover{
+  background-color: rgb(255, 255, 255,0.2);
+  color: rgb(0, 255, 213);
+  outline: none;
+}
+  /*under body
+  .img{display: flex;justify-content: center;align-items: center;display: inline-block;}
+  */
+  /*Fro container of backfgound first top*/
+  .Allcontianer{
+    height: 4520px;
+    margin-left:17%;
+    margin-right:17%;
+    background-repeat: repeat;
+    background-color: rgba(0, 0, 0, 50%);
+  }
+  .bodyHead{
+    width:100%;
+    height:3570px;
+    display: grid;
+    grid-template-columns: 2.4fr 0.6fr;
+  }
+  /*{
+    background-image: url("img_tree.png");background-repeat: no-repeat;background-position: right top;
+  }*/
+  .top-0{
+    display: flex;
+  }
+  .top-0{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(185, 183, 183);
+    font-size: 18pt;
+    font-family: Khmer OS Muol Light;
+    margin-top: auto;
+    color: rgb(226, 226, 226);
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+  }
+  .cr{
+  background: linear-gradient(90deg, rgb(0, 0, 0) 5%, rgb(66, 13, 224) 20% , rgb(0, 0, 0) 30%,rgb(23, 255, 205) 50%,rgb(0, 0, 0) 60%,rgb(1, 145, 255) 78%, rgb(0, 0, 0) 83%,rgb(130, 0, 210) 92%, rgb(0, 0, 0) 99%);
+  background-size: 300% 300%;
+  animation: toggle 15s infinite;
+}
+@keyframes toggle{
+  from{
+    background-position: 0% 100%;
+  }
+  to{
+    background-position: 150%;
+  }
+}
+.icon-atived i{
+  font-size: 22pt;  padding-left: 5px;
+}
+  /*body left in table img*/
+  .Headimg{
+    background: linear-gradient(to right,rgb(70, 19, 255), rgb(62, 255, 165),rgb(0, 251, 255)); height:50px; width:100%;
+    font-size:22pt; color: rgb(255, 255, 255); text-align:left;  padding: 7px 0px 0px 20px; border-radius: 10px 10px 0px 0px;
+    text-shadow: 5px 5px 6px #000000;
+  }
+  .H-container p{
+    font-size: 18pt;
+    border-left: 5px solid rgb(118, 118, 118);
+    background-color: rgba(55, 53, 53, 0.1);
+  }
+  .Onn{
+    width:100%;
+    height:300px;
+    padding-left: 36%;
+    padding-top: 50px;
+    background-repeat:no-repeat;
+    background-position: left top;
+    cursor:pointer;
+  }
+  marquee{  
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+  }
+  /*Input for body img in this*/
+  .top-input-img{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .top-input-img img{
+    border: 15px solid rgba(255,255,255);
+    border-style:inset;
+  }
+  .title-img-story{
+    color: #ddd;
+    margin-right:40px;
+    margin-left: 40px;
+    font-size: 18pt;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+  }
+  .title-img-story p{
+    padding-left: 20px;
+  }
+  .sub-text{
+    font-size: 18pt;
+    margin-left: 30px;
+    color: burlywood;
+  }
+  .Header-ep-related{
+    Padding-top: 10rem;
+    Padding-left: 30px;
+    Padding-right:30px;
+    position: relative;
+  }
+  /*Headimg-padding title ep and related date*/
+  .Headimg-Padding .Headimg{
+    text-align: right;
+    padding-right: 30px;
+  }
+  .Story-title{
+    padding-right:84%;
+    padding-left: 2.5%;
+    padding-top: 40px;
+  }
+  .body-ep-one tr th a{
+    font-size: 18pt;
+    color: white;
+    text-decoration: none;
+  }
+  .body-ep-one tr:hover{
+    background-color: rgb(255, 255, 255,0.5);
+    transition: 0.20s ease-in;
+  }
+ .date{
+  text-align: center;
+ }
+  /*Undedr headimg-one*/
+  .clip-video video{
+    position: relative;
+  }
+  
+  /*cotainer-last under right and left*/
+  .cotainer-last{
+    background: rgb(28, 29, 29);
+    box-shadow: -10px 0px 20px white;
+    width:100%;height: 300px;
+    color: #ddd;
+  }
+  .text-header-1{
+    font-size: 20pt;
+  }
+  .lest-text-gird{
+    color: #ddd;
+    margin-left: 18%;
+    margin-right: 18%;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 15pt;
+    padding-top: 30px;
+  }
+  .icon-header{
+    text-align: center;
+    font-size: 60pt;
+    cursor: pointer;
+  }
+  .icon-header i:hover{
+    color: rgb(21, 60, 255); }
+  .linkendin i:hover{
+    color: #32ff92;  }
+  .linkendin i{
+    padding-left: 80px;
+  }

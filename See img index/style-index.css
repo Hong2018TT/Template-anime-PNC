@@ -1,0 +1,37 @@
+/* Medium screens (tablets) */
+@media screen and (max-width: 1024px) {
+    .gird-header {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr); /* Simplified column declaration */
+        background-color: rgb(0, 0, 0);
+        gap: 5px; /* `gap` is the modern replacement for `grid-gap` */
+        align-items: center; /* Ensures vertical alignment */
+        justify-content: center; /* Centers items horizontally */
+    }
+}
+
+/* Small screens (mobile devices) */
+@media screen and (max-width: 768px) {
+    .gird-header {
+        grid-template-columns: repeat(6, 1fr); /* Switch to 2 columns */
+        gap: 8px;
+    }
+}
+
+/* Extra small screens (phones) */
+@media screen and (max-width: 480px) {
+    .gird-header {
+        grid-template-columns: repeat(4, 1fr); /* Stack items in a single column */
+        text-align: center;
+    }
+}
+
+.contianer-gird-all{
+    width:100%;
+}
+.item-body img{
+    cursor: pointer;
+}
+img{
+    height: 120px;
+}

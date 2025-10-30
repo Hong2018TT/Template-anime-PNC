@@ -1,0 +1,47 @@
+/*Headimg-padding title ep and related date*/
+.Headimg-one{
+  background: linear-gradient(to right,rgb(70, 19, 255), rgb(62, 255, 165),rgb(0, 251, 255));
+  width:100%;
+  padding-left: 20px;
+  font-size:15pt;
+  color: aliceblue;
+  text-align:left;
+  text-shadow: 7px 5px 5px #000000;
+  padding-block:5px;
+}
+.Headimg-Padding .Headimg{
+  text-align: right;
+  padding-right: 10px;
+}
+/*Undedr headimg-one*/
+.clip-video video{
+  position: relative;
+}
+
+/**/
+.button-left{
+display: flex;
+justify-content: space-between;
+margin-bottom: 2rem;
+}
+.button-left button{
+  width:100%; height:35px;
+  font-size: 10pt;
+  color: white;
+  background-color: rgb(80, 80, 255);
+  transition: 0.50s;
+  border-radius: 0;
+  border: none;
+}
+.button-left a{
+  width:100%;
+}
+.btn:hover{
+  background-color: rgba(29, 29, 29, 0.753);
+  transition: 0.2s;
+  color: aliceblue;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}

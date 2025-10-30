@@ -1,0 +1,136 @@
+/*body right in table img and type animation*/
+  .rigth-body{
+    width:100%;
+    background-color: transparent;
+    border-radius: 0px 0px 5px 5px;
+    border: 5px solid aqua;
+    border-top: none !important;
+  }
+  .Buttom-right{
+    overflow:hidden;
+  }
+  .rigth-body .Buttom-right a li{
+    font-size: 9pt;color: #ddd;
+    padding-left: 20px;width: 100%;
+  }
+  .Buttom-right a{text-decoration: none;}
+
+.rigth-body .Buttom-right li{
+    list-style: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding-block: 8px;
+    box-shadow:0px 0px 4px rgb(255, 255, 255) inset; 
+    transition-duration: 0.3s;
+  }
+  .rigth-body .Buttom-right li:hover{
+    background-color: #181818;transition: 0.2s;
+    transform:scale(1.1);
+    box-shadow:1px 1px 1px rgb(255, 255, 255); 
+  }
+  @media screen and (max-width: 768px) {
+    .rigth-body .Buttom-right li:hover{
+      transform:none;
+    }
+  }
+  /*Right-one under right*/
+  .right-one{
+    margin-top:3rem;
+  }
+  /*padding top right buttom left*/
+  .right-body-one{
+    width:100%;
+    background-color: transparent;
+    border-radius: 0px 0px 5px 5px;
+    padding: 8px 0px 0px 10px;
+    border: 6px solid rgb(0, 255, 251);
+    box-shadow:0px 0px 15px rgba(0, 255, 251) inset;
+  }
+  .right-head-one img{
+    width:70px;height: 85px;
+    border: 2px solid rgb(197, 36, 255);
+    border-right-color:  #32ff92;
+    border-left-color: rgb(29, 202, 255);
+    transition: 0.20s ease-out;
+  }
+  .right-body-one img:hover{
+    border-image: linear-gradient(220deg, rgb(112, 34, 255),rgb(255, 95, 137),rgb(228, 255, 56),rgb(42, 248, 255));
+    border-width: 3px; border-style: solid;  border-image-slice: 5%;
+    transition: 0.20s;
+  }
+  .right-head-one{
+    display:flex;text-align:left;
+    justify-content: left;
+    padding-bottom:10px; color: aliceblue;
+  }
+  .rigth-body-text{
+    padding: 0 0.2rem 0px 0.5rem;
+    font-size: large;
+  }
+  .rigth-body-text a{
+    color: #fafafa; 
+    text-decoration: none;
+  }
+  .rigth-body-text b{
+    font-size: 9pt;
+    line-break: break-all;
+  }
+  .rigth-body-text b:hover{
+    text-decoration:underline;
+  }
+  .Rnumber i{
+    padding-right: 10px;font-size: 9pt;color: rgb(100, 172, 255);
+    border-left: 5px solid rgb(0, 255, 140);padding-left: 5px;
+    border-radius:2px;
+  }
+  .Rnumber{
+    font-size: 9pt;
+  }
+  /*Right two*/
+  .R-two{
+    margin-top: 3rem;
+  }
+  .right-body-two{
+    width:100%;
+    background: black;
+    background-color: transparent;
+    border-radius: 0px 0px 5px 5px;
+    padding: 8px 0px 0px 10px;
+    border:  6px solid rgb(0, 255, 251);
+    box-shadow:0px 0px 15px rgba(0, 255, 251) inset;
+  }
+  .right-body-two .right-head-two img{
+    width:70px;height: 85px; cursor: pointer;
+    border: 2px solid rgb(197, 36, 255);
+    border-right-color:  #32ff92;
+    border-left-color: rgb(29, 202, 255);
+  }
+  /*transform: scale3d(1.2,1.2,1.2) rotate(-360deg);*/
+  .right-body-two .right-head-two img:hover{
+    border-image: linear-gradient(220deg, rgb(112, 34, 255),rgb(255, 95, 137),rgb(228, 255, 56),rgb(42, 248, 255));
+    border-width: 3px; border-style: solid;  border-image-slice: 5%;
+    transition: 0.20s
+  }
+  .right-head-two{
+    display: flex; justify-content: left;text-align:left;
+    padding-bottom:10px; 
+    color: aliceblue;
+  }
+  .rigth-body-text2{
+    font-size: 9pt;color: rgb(0, 134, 237);
+    padding: 0.5rem 0px 0px 10px;
+  }
+  .rigth-body-text2 a{
+    text-decoration: none;
+  }
+  /*Underline :hover text*/
+  #Underline:hover{
+     text-decoration:overline;
+  }
+  .rigth-body-text2 .R1{
+    color: #ddd;
+  }
+  .rigth-body-text2 .R2{
+   font-size: 8pt; color: blueviolet;
+   line-break: break-all;
+  }
+  

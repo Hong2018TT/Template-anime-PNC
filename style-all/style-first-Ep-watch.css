@@ -1,0 +1,85 @@
+.border-img{
+  position: relative;
+}
+.top-input-img{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-block: 1rem;
+}
+
+.title-img-story{
+  color: #ddd;
+  font-size: 12pt;
+  border: 3px solid aqua;
+  border-radius: 0 0 2px 2px;
+  padding-block: 8px;
+  box-shadow: 1px 1px 5px rgb(255, 255, 255) inset;
+  border-top: none;
+}
+.title-img-story p{
+  padding-inline: 1rem;
+}
+.sub-text{
+  font-size: 14pt;
+  margin-left: 30px;
+  color: burlywood;
+}
+.Story-title{
+  padding-top: 40px;
+}
+/*Headimg-padding title ep and related date*/
+.Header-ep-related{
+  Padding-top: 6rem;
+  position: relative;
+}
+/*Undedr headimg*/
+.The-title a .sub-related{
+  color:white;
+  font-size: 10pt;
+  width:100%;
+  border-radius: 2px;
+  background: transparent;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+.Button-ep{
+  overflow: auto;
+  height:440px;
+  visibility: visible;
+  border-bottom: 10px solid #00ffeed5;
+}
+/* width */
+.Button-ep::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+.Button-ep::-webkit-scrollbar-track {
+background-color: #181818;
+}
+
+/* Handle */
+.Button-ep::-webkit-scrollbar-thumb {
+background: #00ffee8d; 
+}
+
+/* Handle on hover */
+.Button-ep::-webkit-scrollbar-thumb:hover {
+background-color: rgb(0, 251, 255,0.7); 
+}
+.The-title a{
+  text-decoration: none;
+}
+.The-title a  button:hover{
+  background: #757575;
+  transition: 0.40s;
+}
+.ep-date-related{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}

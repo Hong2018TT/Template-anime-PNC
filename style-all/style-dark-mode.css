@@ -1,0 +1,100 @@
+:root{
+    --text-white : #828282;
+    --back-color : #6b6b6b;
+}
+
+/* Dark mode */
+body.dark {
+    background-color: #ffffff;
+}
+body.dark .menu-skicky{
+    background-color: var(--text-white);
+}
+
+body.dark .container-showitem-all{
+    border-color:#ffffff;
+    box-shadow: none;
+}
+body.dark .rigth-body{
+    border-color: #414141;
+}
+body.dark .right-body-one{
+    border-color:#414141;
+    box-shadow: none;
+}
+body.dark .right-body-two{
+    border-color:#414141;
+    box-shadow: none;
+}
+body.dark .location-body-left{
+    border-color: #414141;
+}
+body.dark .location-body-right-middle ,.location-body-right{
+    border-color: #414141;
+    box-shadow: none;
+}
+body.dark iframe{
+    border-color: #414141;
+    box-shadow: none;
+}
+body.dark .cr{
+    background: linear-gradient(90deg,rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255));
+    background-size: 300% 300%;
+    animation: toggle 15s infinite;
+    color: black;
+    box-shadow: 15px 0 10px rgb(255, 255, 255) inset, -15px 0 10px rgb(255, 255, 255) inset;
+    border-color: #ffffff;
+}
+body.dark .container-showitem-all{
+    background-color: var(--back-color) !important;
+}
+body.dark .rigth-body{
+    background-color:  var(--back-color);
+}
+body.dark .right-body-one{
+    background-color:  var(--back-color);
+}
+body.dark .right-body-two{
+    background-color:  var(--back-color);
+}
+body.dark .location-body-right-middle ,.location-body-right{
+    background-color: var(--back-color);
+    border-radius: 2px;
+}
+
+.dark-light{
+    margin-right: 1rem;
+}
+body.dark .dark-light i{
+    position: absolute !important;
+    color:#000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.dark-light i.sun{
+    opacity: 0;
+    pointer-events: none;
+}
+.dark-light.active i.sun{
+    opacity: 1;
+    pointer-events: auto;
+}
+.dark-light.active i.moon{
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* For container footer */
+body.dark .cotainer-last{
+    color: #ddd;
+    background: #828282;
+    box-shadow: -8px 0px 10px black;
+}
+
+/* For Pagination button scroll up */
+body.dark #button_up{
+    background-color: #ffffff;
+}
+body.dark #button_up i{color:#000000;}
+body.dark #button_up:hover{background-color:#828282}
